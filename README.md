@@ -1,9 +1,9 @@
 # Very short description of the package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/alexr1712/netelip-laravel.svg?style=flat-square)](https://packagist.org/packages/alexr1712/netelip-laravel)
-[![Build Status](https://img.shields.io/travis/alexr1712/netelip-laravel/master.svg?style=flat-square)](https://travis-ci.org/alexr1712/netelip-laravel)
-[![Quality Score](https://img.shields.io/scrutinizer/g/alexr1712/netelip-laravel.svg?style=flat-square)](https://scrutinizer-ci.com/g/alexr1712/netelip-laravel)
-[![Total Downloads](https://img.shields.io/packagist/dt/alexr1712/netelip-laravel.svg?style=flat-square)](https://packagist.org/packages/alexr1712/netelip-laravel)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/alexr1712/netelipsmslaravel.svg?style=flat-square)](https://packagist.org/packages/alexr1712/netelipsmslaravel)
+[![Build Status](https://img.shields.io/travis/alexr1712/netelipsmslaravel/master.svg?style=flat-square)](https://travis-ci.org/alexr1712/netelipsmslaravel)
+[![Quality Score](https://img.shields.io/scrutinizer/g/alexr1712/netelipsmslaravel.svg?style=flat-square)](https://scrutinizer-ci.com/g/alexr1712/netelipsmslaravel)
+[![Total Downloads](https://img.shields.io/packagist/dt/alexr1712/netelipsmslaravel.svg?style=flat-square)](https://packagist.org/packages/alexr1712/netelipsmslaravel)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
