@@ -1,4 +1,4 @@
-# Very short description of the package
+# Netelip SMS Laravel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/alexr1712/netelipsmslaravel.svg?style=flat-square)](https://packagist.org/packages/alexr1712/netelipsmslaravel)
 [![Build Status](https://img.shields.io/travis/alexr1712/netelipsmslaravel/master.svg?style=flat-square)](https://travis-ci.org/alexr1712/netelipsmslaravel)
