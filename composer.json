@@ -1,0 +1,55 @@
+{
+    "name": "alexr1712/netelip-laravel",
+    "description": "Netelip SMS Service",
+    "keywords": [
+        "alexr1712",
+        "netelip-laravel"
+    ],
+    "homepage": "https://github.com/alexr1712/netelip-laravel",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alexander Rodriguez",
+            "email": "alexr1712@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.0",
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlexR1712\\NetelipLaravel\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AlexR1712\\NetelipLaravel\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlexR1712\\NetelipLaravel\\NetelipLaravelServiceProvider"
+            ],
+            "aliases": {
+                "NetelipLaravel": "AlexR1712\\NetelipLaravel\\NetelipLaravelFacade"
+            }
+        }
+    }
+}
