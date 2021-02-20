@@ -56,9 +56,9 @@ class NetelipLaravel
         }
          
         $xml = simplexml_load_string($response->getBody()->getContents());
-        $code = (int) $xml->xpath('//status')[0];
+        $statusCode = (int) $xml->xpath('//status')[0];
         
-        $validation = $this->validateResponse();
+        $validation = $this->validateResponse($statusCode);
                 
         return array_merge($validation, [
             'sms_id' => (string) $xml->xpath('//ID-SMS')[0],
