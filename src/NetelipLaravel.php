@@ -67,7 +67,7 @@ class NetelipLaravel
         
     }
 
-    public function validateResponse(int $statusCode): string {
+    public function validateResponse(int $statusCode): array {
 
         $is_sent = $statusCode === self::RESPONSE_CODE_SUCCESS;
 
